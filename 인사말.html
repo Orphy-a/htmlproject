@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+    <style>
+        main > .background{
+            display: flex;
+            align-items: flex-end;
+            width: 980px;
+            height: 184px;
+            background-image: url(/images/sub_top_bg.jpg);
+            border: 1px solid blue;
+            box-sizing: border-box;
+            
+        }
+
+        main > .background > p{
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            margin-left: 10px;
+            opacity: 50%;
+        }
+
+        main > aside{
+            
+        }
+
+        main > section {
+            width: 980px;
+            margin: 0 auto;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+
+        main > section > aside{
+            float: left;
+            width: 176px;
+            height: 650px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+        }
+
+        main > section > article{
+            float: right;
+            width: 800px;
+            height: 650px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            padding-left: 35px;
+            padding-top: 40px;
+        }
+
+        
+        main > section > article > nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 40px;
+            border-bottom: 1px solid gray;
+
+        }
+
+        main > section > article > nav > img{
+            align-self: flex-end;
+            
+        }
+
+        main > section > article > nav > .container{
+            display: flex;
+            align-items: center;
+
+        }
+
+        main > section > article > nav > .container > p{
+            margin-left: 5px;
+        }
+
+        main > section > article > nav > .container > p:nth-last-of-type(1){
+            color: greenyellow;
+        }
+        
+        main > section > article > div:nth-of-type(2){
+            margin-top: 20px;
+        }
+
+        main > section > article > div > p{
+            font-size: 13px;
+        }
+        
+        main > section > article > div:nth-of-type(3){
+            font-size: 13px;
+            margin-top: 20px;
+        }
+
+        main > section > article > .title{
+            color: greenyellow;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        main > section > article > .article{
+            font-size: 13px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <div>
+                <div class="top">
+                    <p>
+                        <a href="#">HOME |</a>
+                        <a href="#">로그인 |</a>
+                        <a href="#">회원가입 |</a>
+                        <a href="#">나의정보 |</a>
+                        <a href="#">로그아웃 |</a>
+                        <a href="#">관리자 |</a>
+                        <a href="#">고객센터</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div>
+                <article>
+                    <a href="#" class="logo">
+                        <img src="./images/logo.png" alt="팜스토리 로고">
+                    </a>
+                    <a href="#" class="freeShipping">
+                        <img src="./images/head_txt_img.png" alt="팜스토리 로고">
+                    </a>
+                </article>
+            </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./images/head_menu_line.png" alt="라인">
+                            <img src="./images/head_menu1.png" alt="팜스토리소개">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/head_menu_badge.png" alt="30%" class="head_badge">
+                            <img src="./images/head_menu_line.png" alt="라인">
+                            <img src="./images/head_menu2.png" alt="장보기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/head_menu_line.png" alt="라인">
+                            <img src="./images/head_menu3.png" alt="농작물이야기">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/head_menu_line.png" alt="라인">
+                            <img src="./images/head_menu4.png" alt="이벤트">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/head_menu_line.png" alt="라인">
+                            <img src="./images/head_menu5.png" alt="커뮤니티">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="background">
+                <p>INTRODUCTION</p>
+            </div>
+            <section>
+                <aside>
+                    <div>
+                        <img src="/images/sub_aside_cate1_tit.png" alt="">
+                        <li>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                        </li>
+                        <img src="/images/sub_aside_bg_line.png" alt="">
+                    </div>
+                    
+                </aside>
+                <article>
+                    <nav>
+                        <img src="/images/sub_nav_tit_cate1_tit1.png" alt="팜스토리 소개">
+
+                        <div class="container">
+                            <img src="/images/sub_page_nav_ico.gif" alt="인사말">
+                            <p>HOME > 팜스토리소개 > </p>
+                            <p>인사말</p>
+                        </div>
+
+                    </nav>
+                    <div>
+                        <img src="images/sub_page1_article_txt.png" alt="건강한 먹거리">
+                    </div>
+
+                    <div class="article 1">
+                        <p>
+                            항상 저희 팜스토리를 성원해 주시고 관심을 가져주시는 모든분들께 감사의 인사를 드리며<br>
+                            가정에 건강과 행복이 가득하시길 기원합니다.
+                        </p>
+                    </div>
+                    <div class="article 2">
+                        팜스토리는 신선하고 안전한 먹거리로 건강한 삶 만들기에 기여합니다.<br>
+                        보다 좋은 농산품을 공급하기 위해 화학비료를 쓰지 않는 건강한 흙에서 유기농업으로 정성을 다해 지은 농사를 통해 및고 먹을 수 있는 먹거리 제공에 앞장서겠습니다.
+                    </div>
+
+                    <div class="title 1">
+                        친환경 농장
+                    </div>
+                    <div class="article 3">
+                        팜스토리는 경기도 이천에 위치한 10만평 규모의 유기농 제배단지입니다.
+                    </div>
+                    <div class="title 2">
+                        친환경 캠페인
+                    </div>
+                    <div class="article 4">
+                        팜스토리는 2차 포장재 사용을 줄임으로써 친환경적인 포장과, 친환경적인 소비문화 정착을 위해 노력합니다.
+                    </div>
+                </article>
+                
+                
+
+
+            </section>
+
+            
+
+        </main>
+        <footer>
+            <div>
+                <div>
+                    <img src="./images/footer_logo.png" alt="팜스토리 로고">
+                    <div>
+                        <p>
+                            (주)팜스토리 / 사업자등록번호 123-45-67890 / 통신판매업신고 제 2013-부산진구-123호 / 벤처기업확인 서울지방중소기업청 제 012345678-9-01234호<br>
+                            등록번호 팜스토리01234 (2013.04.01) / 발행인 : 홍길동<br>
+                            대표 : 홍길동 / 이메일 : honggildong@gmail.com / 전화 : 01) 234-5678 / 부산광역시 부산진구 부전동 123
+                        </p>
+                        <p>
+                            copyrightⓒ 홍길동 All rights reserved.
+                        </p>
+                        <p>
+                            farmstory ver1.0.1
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
